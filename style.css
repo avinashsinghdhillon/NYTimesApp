@@ -1,7 +1,7 @@
 .container{
     width: 960px;
     height: 750px;
-    background: aquamarine;
+    background: whitesmoke;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -10,20 +10,29 @@
 #header{
     width: 900px;
     height: 200px;
-    background: lightpink;
-    margin-left: 30px;
+    background: darkblue;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title{
     font-size: 50px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 .main-body{
     width: 900px;
     height: 400px;
-    background: yellow; 
+    background: blue; 
     margin-top: 100px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control{
+    margin-top: 50px;
 }
